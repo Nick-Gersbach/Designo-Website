@@ -107,7 +107,7 @@ Hero
   background-image: url(./img/bg-pattern-hero-home.svg),
     url(./img/image-hero-phone.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: 32vw 0vh, 40vw -7vh;
+  background-position: 45vw 0vh, 50vw -7vh;
   background-color: var(--peach);
   border-radius: 10px;
   height: 75vh;
