@@ -38,8 +38,8 @@ Global Styles
 
 .container {
   width: 90%;
-  max-width: 1100px;
-  margin: auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 a {
@@ -166,6 +166,79 @@ Hero
 /* 
 
 
+
+
+View Projects
+
+
+
+
+*/
+
+#view-projects {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 21px;
+}
+
+#view-projects .project-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+#view-projects .project-box:hover {
+  opacity: 0.9;
+}
+
+#view-projects .project-box h2 {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--white);
+}
+
+#view-projects .project-box a {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--white);
+}
+
+#view-projects .web-design {
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url(./img/image-web-design-large.jpg) no-repeat center center/cover;
+  height: 638px;
+  width: 100%;
+  grid-row: 1 / 3;
+}
+#view-projects .app-design {
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url(./img/image-app-design.jpg) no-repeat center center/cover;
+  height: 308px;
+  width: 100%;
+  grid-column: 2 / 4;
+}
+#view-projects .graphic-design {
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url(./img/image-graphic-design.jpg) no-repeat center center/cover;
+  height: 308px;
+  width: 100%;
+  grid-column: 2 / 4;
+}
+
+/* 
+
+
 Media Queries
 
 */
@@ -213,6 +286,27 @@ TABLET
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+  }
+
+  /* 
+  
+  
+  
+  View Projects
+  
+  
+  */
+
+  #view-projects {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #view-projects .web-design {
+    height: 308px;
   }
 }
 
@@ -311,5 +405,30 @@ TABLET
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+  }
+
+  /* 
+  
+  
+  
+  View Projects
+  
+  
+  */
+
+  #view-projects {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #view-projects .project-box h2 {
+    font-size: 28px;
+  }
+
+  #view-projects .web-design {
+    height: 308px;
   }
 }
