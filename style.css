@@ -239,6 +239,60 @@ View Projects
 /* 
 
 
+
+
+PRF
+
+
+
+
+*/
+
+#prf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 6rem;
+  background-image: url(./img/bg-pattern-leaf.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 30vw 15vh;
+}
+
+#prf .prf-box h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+#prf .prf-box p {
+  color: var(--dark-grey);
+  width: 85%;
+  margin: 0 auto;
+}
+
+#prf .passionate {
+  background-image: url(./img/bg-pattern-small-circle.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 7vw 0vh;
+}
+
+#prf .resourceful {
+  background-image: url(./img/bg-pattern-small-circle.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 8vw 0vh;
+}
+
+#prf .friendly {
+  background-image: url(./img/bg-pattern-small-circle.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 9vw 0vh;
+}
+/* 
+
+
 Media Queries
 
 */
@@ -286,6 +340,57 @@ TABLET
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+  }
+
+  /* 
+
+
+
+
+PRF
+
+
+
+
+*/
+
+  #prf {
+    flex-direction: column;
+    background-image: none;
+  }
+
+  #prf .prf-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+  }
+
+  #prf .prf-box h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  #prf .prf-box p {
+    width: 55%;
+    text-align: left;
+  }
+
+  #prf .passionate {
+    background-position: 2vw 0vh;
+  }
+
+  #prf .resourceful {
+    background-position: 0vw 4vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  #prf .friendly {
+    background-position: 0vw 0vh;
   }
 
   /* 
@@ -338,7 +443,6 @@ TABLET
     width: 80%;
     height: 100%;
     transform: translateX(-1000px);
-    /* opacity: 0.9; */
     padding: 30px;
     transition: transform 0.7s ease-in-out;
   }
