@@ -446,6 +446,104 @@ footer .bottom-footer .social-icons li a:hover {
 /* 
 
 
+
+
+
+
+WEB DESIGN PAGE
+
+
+
+
+
+
+
+*/
+
+#web-design-banner {
+  margin-top: 5rem;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-color: var(--peach);
+  background-image: url(./img/bg-pattern-intro-web.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 29vw -28vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#web-design-banner .web-design-banner-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#web-design-banner .web-design-banner-text h1 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--white);
+  padding-bottom: 1rem;
+}
+#web-design-banner .web-design-banner-text p {
+  color: var(--white);
+  width: 60%;
+  text-align: center;
+}
+
+#web-design-projects {
+  margin-top: 7rem;
+  margin-bottom: 25rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+#web-design-projects .project-container {
+  margin-top: 2rem;
+}
+
+#web-design-projects .project-container img {
+  width: 350px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: -1rem;
+}
+
+#web-design-projects .project-container .web-design-projects-text-content {
+  background: #fdf3f0;
+  border-radius: 0px 0px 10px 10px;
+  width: 350px;
+  height: 100%;
+}
+
+#web-design-projects .project-container .web-design-projects-text-content h3 {
+  color: var(--peach);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1.5rem;
+}
+
+#web-design-projects .project-container .web-design-projects-text-content p {
+  color: var(--dark-grey);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* 
+
+
 Media Queries
 
 */
@@ -615,6 +713,58 @@ Lets Talk
     padding-right: 0rem;
     padding-top: 2rem;
     padding-bottom: 4.5rem;
+  }
+  /* 
+
+
+
+
+
+
+WEB DESIGN PAGE
+
+
+
+
+
+
+
+*/
+
+  #web-design-banner {
+    background-position: 11vw -28vh;
+  }
+
+  #web-design-projects {
+    margin-top: 7rem;
+    margin-bottom: 25rem;
+    grid-template-columns: 1fr;
+  }
+
+  #web-design-projects .project-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #web-design-projects .project-container .web-design-projects-text-content {
+    width: 350px;
+    height: 300px;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -0.5rem;
+  }
+
+  #web-design-projects .project-container img {
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px 0px 0px 10px;
+    margin-bottom: 0rem;
   }
 }
 
@@ -888,5 +1038,42 @@ Lets Talk
   }
   footer .bottom-footer .social-icons li a:hover {
     opacity: 0.9;
+  }
+
+  /* 
+
+
+
+
+
+
+WEB DESIGN PAGE
+
+
+
+
+
+
+
+*/
+
+  #web-design-banner {
+    background-position: -52vw -44vh;
+  }
+
+  #web-design-banner .web-design-banner-text p {
+    width: 100%;
+  }
+
+  #web-design-projects {
+    margin-top: 5rem;
+    margin-bottom: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
