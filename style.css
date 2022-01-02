@@ -1144,6 +1144,10 @@ WEB DESIGN PAGE
     background-position: -52vw -44vh;
   }
 
+  #web-design-banner .web-design-banner-text h1 {
+    font-size: 32px;
+  }
+
   #web-design-banner .web-design-banner-text p {
     width: 80%;
   }
