@@ -598,6 +598,58 @@ WEB DESIGN PAGE
 /* 
 
 
+
+
+About Us Page
+
+
+
+
+*/
+
+#about-us-banner {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about-us-banner .about-banner-text {
+  color: #fff;
+  background: var(--peach);
+  height: 480px;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  background-image: url(./img/bg-pattern-hero-about-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 29vw -28vh;
+}
+
+#about-us-banner .about-banner-text h1 {
+  font-size: 48px;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+}
+
+#about-us-banner .about-banner-text p {
+  line-height: 26px;
+  width: 83%;
+}
+
+#about-us-banner .about-banner-img img {
+  height: 480px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  width: 600px;
+}
+
+/* 
+
+
 Media Queries
 
 */
@@ -833,6 +885,64 @@ WEB DESIGN PAGE
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  /* 
+
+
+
+
+About Us Page
+
+
+
+
+*/
+
+  #about-us-banner {
+    margin-top: 5rem;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about-us-banner .about-banner-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 350px;
+    width: 100%;
+    margin-top: -1rem;
+    padding-top: 0rem;
+    padding-left: 0rem;
+    background-position: -3vw -50vh;
+    order: 1;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #about-us-banner .about-banner-text p {
+    line-height: 26px;
+    width: 70%;
+    text-align: center;
+  }
+
+  #about-us-banner .about-banner-img {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  #about-us-banner .about-banner-img img {
+    height: 482px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.5rem;
+
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
   }
 }
 
@@ -1203,5 +1313,64 @@ WEB DESIGN PAGE
 
   #service-links .service-box h2 {
     font-size: 28px;
+  }
+
+  /* 
+  
+  
+  
+  
+  About Page
+  
+  
+  
+  */
+
+  #about-us-banner {
+    margin-top: 5rem;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #about-us-banner .about-banner-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 350px;
+    width: 100%;
+    margin-top: -1rem;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+    background-position: -3vw -50vh;
+    order: 1;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #about-us-banner .about-banner-text h1 {
+    font-size: 32px;
+  }
+
+  #about-us-banner .about-banner-text p {
+    line-height: 26px;
+    width: 80%;
+    text-align: center;
+  }
+
+  #about-us-banner .about-banner-img {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  #about-us-banner .about-banner-img img {
+    height: 320px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.5rem;
+
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
   }
 }
