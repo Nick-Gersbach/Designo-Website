@@ -975,7 +975,7 @@ About Us Page
   }
 
   #about-us-banner .about-banner-img img {
-    height: 482px;
+    height: 320px;
     width: 100%;
     overflow: hidden;
     margin-top: 0.5rem;
@@ -986,6 +986,8 @@ About Us Page
 
   #world-class-talent {
     flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
 
   #world-class-talent .world-class-img {
@@ -993,32 +995,39 @@ About Us Page
     height: 500px;
     background: url(./img/tablet-image-world-class-talent.jpg) no-repeat center
       center/cover;
+    border-radius: 10px 10px 0px 0px;
   }
 
   #world-class-talent .world-class-img img {
     display: none;
-    height: 500px;
+    height: 320px;
   }
 
   #world-class-talent .world-class-text {
     background-color: #fdf3f0;
-    height: 640px;
-    padding-top: 10rem;
-    padding-left: 5rem;
-    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+    padding-top: 0rem;
+    padding-left: 0rem;
+    border-radius: 0px 0px 10px 10px;
     background-image: url(./img/bg-pattern-two-circles.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: -10vw 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
   #world-class-talent .world-class-text h2 {
     color: var(--peach);
     font-size: 40px;
     font-weight: 500;
     padding-bottom: 1.5rem;
+    padding-top: 3rem;
   }
 
   #world-class-talent .world-class-text p {
-    padding-bottom: 1.5rem;
+    padding-bottom: 3.5rem;
     width: 90%;
   }
 }
@@ -1449,5 +1458,51 @@ WEB DESIGN PAGE
 
     overflow: hidden;
     border-radius: 10px 10px 0px 0px;
+  }
+
+  #world-class-talent {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  #world-class-talent .world-class-img {
+    width: 100%;
+    height: 500px;
+    background: url(./img/tablet-image-world-class-talent.jpg) no-repeat center
+      center/cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  #world-class-talent .world-class-img img {
+    display: none;
+    height: 320px;
+  }
+
+  #world-class-talent .world-class-text {
+    background-color: #fdf3f0;
+    height: 100%;
+    padding-top: 0rem;
+    padding-left: 0rem;
+    border-radius: 0px 0px 10px 10px;
+    background-image: url(./img/bg-pattern-two-circles.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -10vw 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  #world-class-talent .world-class-text h2 {
+    color: var(--peach);
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+    padding-top: 3rem;
+  }
+
+  #world-class-talent .world-class-text p {
+    padding-bottom: 3.5rem;
+    width: 90%;
   }
 }
