@@ -1292,6 +1292,8 @@ Smartphone
     background-repeat: no-repeat, no-repeat;
     background-position: 32vw 9vh, 50% -425%;
     height: 845px;
+    width: 100%;
+    border-radius: 0px;
   }
 
   #hero .hero-text-content {
@@ -1527,6 +1529,7 @@ WEB DESIGN PAGE
 
   #web-design-banner {
     background-position: -52vw -44vh;
+    width: 100%;
   }
 
   #web-design-banner .web-design-banner-text h1 {
