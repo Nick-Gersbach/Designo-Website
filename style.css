@@ -750,6 +750,54 @@ About Us Page
 /* 
 
 
+
+Real Deal
+
+
+*/
+
+#real-deal {
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 640px;
+}
+#real-deal .real-deal-img img {
+  height: 640px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#real-deal .real-deal-text {
+  background-color: #fdf3f0;
+  height: 640px;
+  padding-top: 10rem;
+  padding-left: 5rem;
+  border-radius: 10px 0px 0px 10px;
+  background-image: url(./img/bg-pattern-two-circles.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -10vw 50vh;
+}
+#real-deal .real-deal-text h2 {
+  color: var(--peach);
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+}
+
+#real-deal .real-deal-text p {
+  padding-bottom: 1.5rem;
+  width: 80%;
+}
+
+/* 
+
+
 Media Queries
 
 */
@@ -1046,7 +1094,7 @@ About Us Page
   #world-class-talent {
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 90%;
   }
 
   #world-class-talent .world-class-img {
@@ -1123,6 +1171,53 @@ About Us Page
 
   .uk {
     background-image: none;
+  }
+
+  #real-deal {
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+  }
+
+  #real-deal .real-deal-img {
+    width: 100%;
+    height: 450px;
+    background: url(img/image-real-deal.jpg) no-repeat center center/cover;
+    border-radius: 10px 10px 0px 0px;
+    order: -1;
+  }
+
+  #real-deal .real-deal-img img {
+    display: none;
+    height: 320px;
+  }
+
+  #real-deal .real-deal-text {
+    background-color: #fdf3f0;
+    height: 450px;
+    padding-top: 0rem;
+    padding-left: 0rem;
+    border-radius: 0px 0px 10px 10px;
+    background-image: url(./img/bg-pattern-two-circles.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -10vw 50vh;
+    text-align: center;
+  }
+  #real-deal .real-deal-text h2 {
+    color: var(--peach);
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+    padding-top: 3.5rem;
+  }
+
+  #real-deal .real-deal-text p {
+    padding-bottom: 3.5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 }
 
@@ -1524,7 +1619,7 @@ WEB DESIGN PAGE
     padding-bottom: 8rem;
     background-position: -3vw -50vh;
     order: 1;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px;
   }
 
   #about-us-banner .about-banner-text h1 {
@@ -1541,7 +1636,7 @@ WEB DESIGN PAGE
     width: 100%;
     text-align: center;
     overflow: hidden;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px;
   }
 
   #about-us-banner .about-banner-img img {
@@ -1551,12 +1646,13 @@ WEB DESIGN PAGE
     margin-top: 0.5rem;
 
     overflow: hidden;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px;
   }
 
   #world-class-talent {
     flex-direction: column;
     height: 100%;
+    width: 100%;
   }
 
   #world-class-talent .world-class-img {
@@ -1564,7 +1660,7 @@ WEB DESIGN PAGE
     height: 500px;
     background: url(./img/tablet-image-world-class-talent.jpg) no-repeat center
       center/cover;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px;
   }
 
   #world-class-talent .world-class-img img {
@@ -1577,7 +1673,7 @@ WEB DESIGN PAGE
     height: 100%;
     padding-top: 0rem;
     padding-left: 0rem;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px;
     background-image: url(./img/bg-pattern-two-circles.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: -10vw 50vh;
@@ -1631,5 +1727,52 @@ WEB DESIGN PAGE
 
   .uk {
     background-image: none;
+  }
+
+  #real-deal {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  #real-deal .real-deal-img {
+    width: 100%;
+    height: 450px;
+    background: url(img/image-real-deal.jpg) no-repeat center center/cover;
+    border-radius: 0px;
+    order: -1;
+  }
+
+  #real-deal .real-deal-img img {
+    display: none;
+    height: 320px;
+  }
+
+  #real-deal .real-deal-text {
+    background-color: #fdf3f0;
+    height: 100%;
+    padding-top: 0rem;
+    padding-left: 0rem;
+    border-radius: 0px;
+    background-image: url(./img/bg-pattern-two-circles.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -10vw 50vh;
+    text-align: center;
+  }
+  #real-deal .real-deal-text h2 {
+    color: var(--peach);
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+    padding-top: 3.5rem;
+  }
+
+  #real-deal .real-deal-text p {
+    padding-bottom: 3.5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 }
