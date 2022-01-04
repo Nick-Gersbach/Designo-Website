@@ -798,6 +798,73 @@ Real Deal
 /* 
 
 
+
+LOCATIONS PAGE
+
+
+*/
+
+#locals {
+  margin-top: 5rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#locals .locals-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#locals .locals-box .locals-text {
+  background: #fdf3f0;
+  width: 800px;
+  height: 326px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 7rem;
+  border-radius: 10px;
+}
+
+#locals .locals-box .locals-text h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--peach);
+  padding-bottom: 1rem;
+}
+
+#locals .locals-box .contact-container {
+  display: flex;
+}
+
+.locals-contact-one {
+  padding-right: 6rem;
+}
+
+.austrailia {
+  margin: 2rem 0;
+}
+
+.austrailia .locals-img {
+  order: -1;
+}
+
+.locals-img {
+  margin-top: 1rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.locals-img img {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* 
+
+
 Media Queries
 
 */
@@ -1218,6 +1285,51 @@ About Us Page
     margin-right: auto;
     padding-left: 0rem;
     padding-right: 0rem;
+  }
+
+  /* 
+
+
+
+LOCATIONS PAGE
+
+
+*/
+
+  #locals .locals-box {
+    flex-direction: column;
+  }
+
+  .locals-contact-one {
+    padding-right: 6rem;
+  }
+
+  .austrailia {
+    margin: 2rem 0;
+  }
+
+  .austrailia .locals-img {
+    order: -1;
+    width: 100%;
+  }
+  .canada .locals-img {
+    order: -1;
+  }
+  .united-kingdom .locals-img {
+    order: -1;
+  }
+
+  .locals-img {
+    margin-top: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+    background: url(img/image-map-canada.png) no-repeat center center/cover;
+    width: 100%;
+    height: 350px;
+  }
+
+  .locals-img img {
+    display: none;
   }
 }
 
