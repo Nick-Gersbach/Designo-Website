@@ -1082,7 +1082,7 @@ About Us Page
     font-size: 40px;
     font-weight: 500;
     padding-bottom: 1.5rem;
-    padding-top: 3rem;
+    padding-top: 1.5rem;
   }
 
   #world-class-talent .world-class-text p {
@@ -1100,20 +1100,29 @@ About Us Page
     margin-left: 0rem;
   }
 
+  #locations .location h3 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+  }
+
   #locations .location {
-    padding: 4rem;
+    padding-top: 2rem;
   }
 
   .can {
-    background-position: 32vw 1vh;
+    background-image: none;
   }
 
   .aus {
-    background-position: 34vw 1vh;
+    background-image: none;
   }
 
   .uk {
-    background-position: 34vw 1vh;
+    background-image: none;
   }
 }
 
@@ -1589,5 +1598,38 @@ WEB DESIGN PAGE
   #world-class-talent .world-class-text p {
     padding-bottom: 3.5rem;
     width: 90%;
+  }
+
+  #locations {
+    width: 90%;
+    margin-top: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #locations .location h3 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+  }
+
+  #locations .location {
+    padding-top: 2rem;
+  }
+
+  .can {
+    background-image: none;
+  }
+
+  .aus {
+    background-image: none;
+  }
+
+  .uk {
+    background-image: none;
   }
 }
