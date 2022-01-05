@@ -865,6 +865,45 @@ LOCATIONS PAGE
 /* 
 
 
+
+
+CONTACT PAGE
+
+
+
+
+*/
+
+#contact-banner {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  display: flex;
+  background-color: var(--peach);
+  border-radius: 15px;
+  height: 480px;
+}
+
+#contact-banner .contact-text {
+  padding-top: 7em;
+  padding-left: 8rem;
+}
+
+#contact-banner .contact-text h1 {
+  color: var(--white);
+  font-size: 48px;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+#contact-banner .contact-text p {
+  color: var(--white);
+  width: 50%;
+}
+
+/* 
+
+
 Media Queries
 
 */
