@@ -883,10 +883,13 @@ CONTACT PAGE
   background-color: var(--peach);
   border-radius: 15px;
   height: 480px;
+  background-image: url(img/bg-pattern-hero-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 2vw -23vh;
 }
 
 #contact-banner .contact-text {
-  padding-top: 7em;
+  padding-top: 5em;
   padding-left: 8rem;
 }
 
@@ -898,7 +901,68 @@ CONTACT PAGE
 }
 #contact-banner .contact-text p {
   color: var(--white);
-  width: 50%;
+  width: 65%;
+}
+
+#contact-banner form {
+  padding-top: 0.5rem;
+  padding-right: 8rem;
+  width: 70%;
+}
+
+#contact-banner form input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding-top: 3rem;
+  width: 100%;
+}
+
+#contact-banner form input::placeholder {
+  color: white;
+}
+
+#contact-banner textarea::placeholder {
+  color: white;
+}
+
+form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  resize: none;
+  margin-top: 2rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 80px;
+  width: 100%;
+}
+
+form textarea:focus,
+input:focus {
+  outline: none;
+  background: transparent;
+}
+
+.form-btn-container {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.form-btn-container .form-btn {
+  padding: 12px;
+  width: 152px;
+  border: none;
+  background: white;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+}
+.form-btn-container .form-btn:hover {
+  cursor: pointer;
+  background: var(--light-peach);
+  color: white;
 }
 
 /* 
@@ -2091,5 +2155,71 @@ LOCATIONS PAGE
 
   #locals .locals-box .locals-text h2 {
     font-size: 32px;
+  }
+
+  /* 
+
+
+
+
+CONTACT PAGE
+
+
+
+
+*/
+
+  #contact-banner {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--peach);
+    border-radius: 0px;
+    height: 800px;
+    background-image: url(img/bg-pattern-hero-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 2vw -23vh;
+  }
+
+  #contact-banner .contact-text {
+    padding-top: 3em;
+    padding-left: 0rem;
+    text-align: center;
+  }
+
+  #contact-banner .contact-text h1 {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+  }
+  #contact-banner .contact-text p {
+    color: var(--white);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact-banner form {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 7rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact-banner form input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding-top: 3rem;
+    width: 100%;
+  }
+
+  .form-btn-container {
+    margin-top: 2rem;
+    text-align: center;
   }
 }
