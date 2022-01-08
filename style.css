@@ -1314,8 +1314,8 @@ About Us Page
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column;
-    margin-left: 0rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #locations .location h3 {
@@ -2220,6 +2220,13 @@ CONTACT PAGE
 
   .form-btn-container {
     margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+  }
+
+  .form-btn-container .form-btn {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
