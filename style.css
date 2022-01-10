@@ -2274,7 +2274,7 @@ CONTACT PAGE
 
   #contact-banner form input {
     background: transparent;
-    border: none;
+    border-color: #e7816b;
     border-bottom: 1px solid #fff;
     padding-top: 3rem;
     width: 100%;
