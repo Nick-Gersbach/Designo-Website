@@ -2281,6 +2281,10 @@ CONTACT PAGE
     border-radius: 0px;
   }
 
+  form textarea {
+    border-color: #e7816b;
+  }
+
   .form-btn-container {
     margin-top: 2rem;
     margin-left: auto;
