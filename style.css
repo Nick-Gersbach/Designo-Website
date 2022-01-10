@@ -2278,6 +2278,7 @@ CONTACT PAGE
     border-bottom: 1px solid #fff;
     padding-top: 3rem;
     width: 100%;
+    border-radius: 0px;
   }
 
   .form-btn-container {
