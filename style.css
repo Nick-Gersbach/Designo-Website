@@ -928,6 +928,7 @@ CONTACT PAGE
 }
 
 form textarea {
+  color: white;
   background: transparent;
   border: none;
   border-bottom: 1px solid #fff;
@@ -983,6 +984,11 @@ small {
   position: absolute;
   top: 60%;
   right: 0%;
+  visibility: hidden;
+}
+
+.email-error-msg img {
+  padding-left: 5px;
 }
 
 /* 
@@ -991,6 +997,42 @@ small {
 Media Queries
 
 */
+
+/* 
+
+
+
+Widescreen
+
+
+
+*/
+
+@media screen and (min-width: 1650px) {
+  #prf .passionate {
+    background-image: none;
+  }
+
+  #prf .resourceful {
+    background-image: none;
+  }
+
+  #prf .friendly {
+    background-image: none;
+  }
+
+  .can {
+    background-image: none;
+  }
+
+  .aus {
+    background-image: none;
+  }
+
+  .uk {
+    background-image: none;
+  }
+}
 
 /* 
 
