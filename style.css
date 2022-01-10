@@ -916,6 +916,7 @@ CONTACT PAGE
   border-bottom: 1px solid #fff;
   padding-top: 3rem;
   width: 100%;
+  color: white;
 }
 
 #contact-banner form input::placeholder {
@@ -963,6 +964,25 @@ input:focus {
   cursor: pointer;
   background: var(--light-peach);
   color: white;
+}
+
+.email-input-container {
+  position: relative;
+}
+
+.email-input-container img {
+  padding-top: 1px;
+}
+
+small {
+  color: white;
+  font-style: italic;
+}
+
+.email-error-msg {
+  position: absolute;
+  top: 60%;
+  right: 0%;
 }
 
 /* 
@@ -2228,5 +2248,10 @@ CONTACT PAGE
   .form-btn-container .form-btn {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .email-error-msg {
+    position: static;
+    padding-top: 0.5rem;
   }
 }
